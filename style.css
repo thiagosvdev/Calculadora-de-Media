@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: none;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    background: linear-gradient(180deg, #000000 0%, #666666 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    width: 250px;
+    min-height: 300px;
+    background-color: #ffffff;
+    /* garante que não haja imagens de fundo herdadas */
+    background-image: none;
+    color: #000000;
+    /* sombra para separar do fundo escuro */
+    box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: 0.30s;
+}
+
+.title{
+    margin: 15px;
+}
+
+.form{
+    margin: 10px;
+}
+.nota1, .nota2{
+    padding: 10px; 
+    border-radius: 5px;
+    border: 1px solid gray;
+    transition: 0.30s;
+}
+
+.p{
+    margin-bottom: 5px;
+}
+
+.bottom-result{
+    margin: 10px;
+    padding: 10px 35px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(64, 207, 107);
+    border: none;
+    transition: 0.30s;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+.apr-rpr{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HOVER ABAIXO */
+.container:hover{
+    box-shadow: 0 0 10px rgb(150, 64, 207);
+}
+
+.nota1:hover, .nota2:hover{
+    box-shadow: 0 0 10px rgb(64, 207, 107);
+}
+
+.bottom-result:hover{
+    box-shadow: 0 0 10px rgb(64, 207, 107);
+}
+
+.media-result{
+    padding: 5px;
+    margin: 10px;
+    background-color: rgba(64, 207, 107, 0.253);
+    border: 1px solid rgb(64, 207, 107);
+    transition: 0.20s;
+}
+
+.media-result:hover{
+    background-color: rgba(0, 128, 0, 0.479);
+}
+

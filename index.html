@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1>Calculadora de Média</h1>
+        </div>
+
+
+        <div class="form">
+            <p class="p">Primeira nota</p>
+            <input type="number" class="nota1" id="nota1" placeholder="Digite sua primeira nota" required>
+        </div>
+
+        <div class="form">
+            <p class="p">Segunda nota</p> 
+            <input type="number" class="nota2" id="nota2" placeholder="Digite sua segunda nota" required> 
+        </div>
+
+        <div class="bottom">
+            <button onclick="calcularMedia()" class="bottom-result">Calcular Média</button>
+        </div>
+
+        <div class="resultado">
+            <h2>Sua média é:</h2>
+            <div class="media-result">
+                <h3 id="media">0</h3>
+            </div>
+            <h3 id="aprovado-reprovado" class="apr-rpr"></h3>
+        </div>
+
+    </div>
+
+    <script src="ndex.js"></script>
+</body>
+</html>
