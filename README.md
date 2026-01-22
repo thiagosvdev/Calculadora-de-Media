@@ -5,7 +5,6 @@ Este projeto foi desenvolvido de forma independente para automatizar o cálculo 
 ## 🚀 Funcionalidades
 * **Cálculo de Média:** Processa duas notas e gera a média aritmética instantaneamente.
 * **Mensagens Dinâmicas:** Exibe feedbacks personalizados (Aprovado, Final ou Reprovado) de acordo com o resultado.
-* **Validação de Dados:** Implementação de lógica para evitar cálculos com campos vazios (prevenção de NaN).
 
 ## 🛠️ Tecnologias
 * **HTML5:** Estruturação dos elementos e inputs.
